@@ -16,10 +16,7 @@ public class MainClassTest {
 	@Test
 	public void testOrderElementsOne() throws IOException {
 		
-		assertArrayEquals(new String[]{"AAA","ABC","abc"},MainClass.orderElements(new String[] {"abc","ABC","AAA","AAA"}));
-		assertArrayEquals(new String[] {"A","AAA","Abc","BBB","aaa","b"},
-				MainClass.orderElements(new String[] {"AAA","BBB","aaa","AAA","Abc","A","b"}));
-		
+	
 		String [] a1=new String[]{"AAA","ABC","abc"};
 		String [] a2 = MainClass.orderElements(new String[] {"abc","ABC","AAA","AAA"});
 		
